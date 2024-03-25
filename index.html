@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/Sympo_logo2.png" type="image/x-icon">
+    <title>ECE</title>
+</head>
+<body>
+    <header>
+        <div class="sympo_logo_img_and_title">
+            <img src="images/Sympo_logo2.png" alt="" class="Sympo_logo_img">
+            <h1 id="title">ELECSTA*2K24</h1>
+        </div>
+        
+        <ul class="showmenu">
+            <li><a href="#home" id="li_home">Home</a></li>
+            <li><a href="#cabt" id="li_about">About</a></li>
+            <li><a href="#cent" id="li_events">Events</a></li>
+            <li><a href="#reg_hr" id="li_registration">Registration</a></li>
+            <li><a href="#cc" id="li_contact">Contact</a></li>
+        </ul>
+        <i class="fa fa-solid fa fa-bars" id="baricon"></i>
+    </header>
+    <div id="home">
+        <h1>ELECSTA 2K24</h1>
+        <h2 id="home_h2">A National Level Technical Symposium</h2>
+        <p class="home_first_para">ELECSTA 2k24 is here ! 
+        </p>
+        <p class="home_second_para">
+            ELECSTA from the Electronics and Communication Department of Government  College of Engineering, Dharmapuri is a national level symposium to be held on 4th April consists of a series of technical events for acquiring knowledge and other fun activities to make the stay memorable.
+            It is completely organized by a team of dedicated students to manifest the spirit of students of Electronics and Communication Engineering and enable the participants to showcase their talents. But that’s not all! We’ve got exciting prizes for the winners.
+        </p>
+        <p class="home_third_para">
+            <span class="home_third_para_span">Register now</span> and join us to interact with the technical ideas and build your knowledge with lots of fun.
+        </p>
+        <div class="countdown" id="countdown">
+            <div class="time" id="time_days">
+                <h2 id="days" class="timeh2"></h2>
+                <small class="small" id="days_small">Days</small>
+            </div>
+            <div class="time" id="time_hours">
+                <h2 id="hours" class="timeh2"></h2>
+                <small class="small" id="hours_small">Hours</small>
+            </div>
+            <div class="time" id="time_minutes">
+                <h2 id="minutes" class="timeh2"></h2>
+                <small class="small" id="minutes_small">Minutes</small>
+            </div>
+            <div class="time" id="time_seconds">
+                <h2 id="seconds" class="timeh2"></h2>
+                <small class="small" id="seconds_small">Seconds</small>
+            </div>
+        </div>
+        <a href="https://forms.gle/BDUTTj8AZLTxcu5r6" target="_blank"><button id="register">Register</button></a>
+    </div>
+
+    <p id="cabt"><hr class="hr"></p>
+
+    <div id="about">
+        <h1>About us</h1>
+        <div id="both">
+            <div id="left">
+                <img src="images/clg_img3_croped.jpeg" alt="" class="about_image">
+            </div>
+            <div id="right">
+                <p class="about_para_1">
+                    Welcome to Elecsta 24!
+                </p>
+                <p class="about_para_2">
+                    ELECSTA 2K24 is a National Level Event which is one of the proud venture of our Association  of Electronics and Communication Engineering. It is our immense pleasure to invite each and every unique mind with magnificent ideas longing for a stage to exhibit out. Whether you're a tech enthusiast, an artist, a gamer, or a performer, Elecsta 24 has something for everyone. Join us as we celebrate the diverse tapestry of talent and creativity, inspire collaboration and exploration, and create unforgettable memories together.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <p id="cent"><hr class="hr"></p>
+
+    <div id="allents">
+        <h3 class="tech">Technical Events</h3>
+        <div class="techevents">
+            <div class="events">
+                <img src="images/PaperPresentation.webp" alt="" class="img" onclick="openPopup()">
+                <p class="event_name" onclick="openPopup()">Paper Presentation</p>
+                
+            </div>
+            <div class="popup" id="popup">
+                <p class="close_icon" onclick="closePopup()">X</p>
+                <img src="images/PaperPresentation.webp" alt="" class="popup_img">
+                <p class="popup_event_name">Paper Presentation</p>
+                <p class="popup_content1">In this event ,the participants are required to make a paper about a certain topic or area, and then present it in front of a committee, following which it will be rated and judged based on their performance.
+                Innovation, precision and Technical creativity is appreciated. <br> <span class="popup_content_note">Note:</span> The decision of judges will be final.
+                </p>
+                <p class="popup_content_title">FORMAT</p>
+                <p class="popup_content">Email your presentation to our mail id: elecsta2k24@gmail.com <br> Subject: Paper Presentation - ELECSTA <br> Contents of mail: <br> Your registration order id : <br> College Name : <br> Your Name: <br> Attach the document:</p>
+
+                <p class="popup_content_title">CONTACT</p>
+                <p class="popup_contact_name">Parthasarasthi M - 7904804637</p>
+
+                <a href="https://forms.gle/BDUTTj8AZLTxcu5r6" target="_blank"><button id="register">Register</button></a>
+            </div>
+            <div class="events">
+                <img src="images/techQuiz.avif" alt="" class="img" onclick="openPopup2()">
+                <P class="event_name" onclick="openPopup2()">Tech-Quiz</P>
+                
+            </div>
+            <div class="popup" id="popup2">
+                <p class="close_icon" onclick="closePopup2()">X</p>
+                <img src="images/techQuiz.avif" alt="" class="popup_img">
+                <p class="popup_event_name">Tech-Quiz</p>
+                <p class="popup_content1">This event will be a online program so bring your mobile. It consist of two parts: <br>
+                    Round 1 : General IQ questions. <br>
+                    Round 2 : Electronics Related Questions. <br>
+                    <span class="popup_content_title">Syllabus:</span> Digital Electronics,Analog Circuits,Digital Communication,Signals and Systems. <br>
+                    Innovation, precision and technical creativity is appreciated. <br> <span class="popup_content_note">Note:</span> The decision of Event Coordinators will be final.
+                </p>
+                <p class="popup_content_title">CONTACT</p>
+                <p class="popup_contact_name">Kaviya S</p>
+                <a href="https://forms.gle/BDUTTj8AZLTxcu5r6" target="_blank"><button id="register">Register</button></a>
+            </div>
+            <div class="events">
+                <img src="images/codingMasterCroped.jpg" alt="" class="img" onclick="openPopup3()">
+                <p class="event_name" onclick="openPopup3()">Coding Master</p>
+                
+            </div>
+            <div class="popup" id="popup3">
+                <p class="close_icon" onclick="closePopup3()">X</p>
+                <img src="images/codingMasterCroped.jpg" alt="" class="popup_img">
+                <p class="popup_event_name">Coding Master</p>
+                <p class="popup_content1">This event will be on laptop/System. Systems will be provided here no need to bring your own laptop.It consists of two part: <br>
+                    Round 1 : Patterns & String Manipulation. <br>
+                    Round 2 : Solving a problem statement. <br>
+                    Each round is an elimination round.  <br>
+                    <span class="popup_content_title">Languages:</span> C , C++ , Java , Python. Any of these languages can be used <br>
+                    Innovation, precision and technical creativity is appreciated. <br> <span class="popup_content_note">Note:</span> The decision of Event Coordinators will be final.
+                </p>
+                <p class="popup_content_title">CONTACT</p>
+                <p class="popup_contact_name">Bharathidasan B - 9344450836</p>
+                <a href="https://forms.gle/BDUTTj8AZLTxcu5r6" target="_blank"><button id="register">Register</button></a>
+            </div>
+            <div class="events">
+                <img src="images/circuitDebugging.jpg" alt="" class="img" onclick="openPopup4()">
+                <p class="event_name" onclick="openPopup4()">Curcuit Debugging</p>
+                
+            </div>
+            <div class="popup" id="popup4">
+                <p class="close_icon" onclick="closePopup4()">X</p>
+                <img src="images/circuitDebugging.jpg" alt="" class="popup_img">
+                <p class="popup_event_name">Circuit Debugging</p>
+                <p class="popup_content1">This event is a Hands-on activity. This event consists of two Rounds: <br>
+                    Round 1 : To solve the given circuit with minimal mistakes. <br>
+                    Round 2 : A circuit will be shown for 2 minutes and be asked to replicate the same circuit on your own. <br>
+                    <!--
+                        Attention, precision and technical knowledge will be appreciated. The decision of Event Coordinators will be final.
+                    -->
+                    Innovation, precision and technical creativity is appreciated. <br> <span class="popup_content_note">Note:</span> The decision of Event Coordinators will be final.</p>
+                    <p class="popup_content_title">CONTACT</p>
+                <p class="popup_contact_name">Arun S - 8525047049</p>
+                <a href="https://forms.gle/BDUTTj8AZLTxcu5r6" target="_blank"><button id="register">Register</button></a>
+            </div>
+            <div class="events">
+                <img src="images/JAMLogo.jpg" alt="" class="img" onclick="openPopup9()">
+                <p class="event_name" onclick="openPopup9()">JAM</p>
+                
+            </div>
+            <div class="popup" id="popup9">
+                <p class="close_icon" onclick="closePopup9()">X</p>
+                <img src="images/JAMLogo.jpg" alt="" class="popup_img">
+                <p class="popup_event_name">JAM</p>
+                <p class="popup_content1">The event name is abbreviation for “Just A Minute”. This event has only one round, Where the participant will be given a on spot topic to speak for a minute. <br>
+                    <span class="popup_content_title">Rules:</span> The participant will be given a chance to search and gather knowledge about the topic for 2 mins. After 2mins a timer will run for 1 minute to present on the topic. <br>
+                    <span class="popup_content_title">Syllabus:</span> The current affair on Electronics Industry & Core subject Knowledge testing Topics. <br>
+                    Innovation, Communication Skills and technical creativity is appreciated. <br> <span class="popup_content_note">NOTE:</span> The decision of Judges will be final.</p>
+                    <p class="popup_content_title">CONTACT</p>
+                <p class="popup_contact_name">Arun S - 8525047049</p>
+                <a href="https://forms.gle/BDUTTj8AZLTxcu5r6" target="_blank"><button id="register">Register</button></a>
+            </div>
+        </div>
+        <h3 class="nontech">Non Technical Events</h3>
+        <div class="nontechevents">
+            <div class="events">
+                <img src="images/PickAndSpeak2.jpeg" alt="" class="img" onclick="openPopup5()">
+                <p class="event_name" onclick="openPopup5()">Pic & Talk</p>
+                
+            </div>
+            <div class="popup" id="popup5">
+                <p class="close_icon" onclick="closePopup5()">X</p>
+                <img src="images/PickAndSpeak2.jpeg" alt="" class="popup_img">
+                <p class="popup_event_name" >Pic & Talk</p>
+                <p class="popup_content">• Individual participation. <br>• The student will pick up a chit and on the selected topic will speak for 2
+                    minutes. <br>• Speech should be in Tamil or English. <br>• During the speech no student is allowed to carry any kind of paper material or
+                    electronic gadget. <br>• Best speech will be declared as winner.
+                    <br> <span class="popup_content_note">NOTE:</span> The decision of Event Coordinators will be final.</p>
+                    <p class="popup_content_title">CONTACT</p>
+                <p class="popup_contact_name">Ranjith R - 9952578701</p>
+                <a href="https://forms.gle/BDUTTj8AZLTxcu5r6" target="_blank"><button id="register">Register</button></a>
+            </div>
+            <div class="events">
+                <img src="images/GuessTheLogo.png" alt="" class="img" onclick="openPopup6()">
+                <p class="event_name" onclick="openPopup6()">Guess IT</p>
+                
+            </div>
+            <div class="popup" id="popup6">
+                <p class="close_icon" onclick="closePopup6()">X</p>
+                <img src="images/GuessTheLogo.png" alt="" class="popup_img">
+                <p class="popup_event_name">Guess IT</p>
+                <p class="popup_content">• Team participation of 2 to 3 members. <br>
+                    • Images of different logo's have been displayed in the screen. <br>
+                    • Team members find the logo name in the given time. <br>
+                    • Every right answer will credit 1 points. <br>
+                    • Which team get more points that team will be declared as winner.
+                    <br> <span class="popup_content_note">NOTE:</span> The decision of Event Coordinators will be final.</p>
+                    <p class="popup_content_title">CONTACT</p>
+                <p class="popup_contact_name">Rajesh R - 7904151356
+                </p>
+                <a href="https://forms.gle/BDUTTj8AZLTxcu5r6" target="_blank"><button id="register">Register</button></a>
+            </div>
+            <div class="events">
+                <img src="images/balloonCupChallenge2.jpg" alt="" class="img" onclick="openPopup7()">
+                <p class="event_name" onclick="openPopup7()">Balloon cup challenge</p>
+                
+            </div>
+            <div class="popup" id="popup7">
+                <p class="close_icon" onclick="closePopup7()">X</p>
+                <img src="images/balloonCupChallenge.jpg" alt="" class="popup_img">
+                <p class="popup_event_name">Balloon cup challenge</p>
+                <p class="popup_content">• Individual participation <br>
+                    • This game contains 2 rounds. <br>
+                    • Round 1: <br>
+                    • Blowing the balloon inside the cup without using hand and collect the cups
+                    vertically. <br>
+                    • Those who collects more cups in the given time they will eligible for 2nd round. <br>
+                    • Round 2: <br>
+                    • By blowing the balloon with the cup arrange it in pyramid shape.
+                    <br> <span class="popup_content_note">NOTE:</span> The decision of Event Coordinators will be final.</p>
+                    <p class="popup_content_title">CONTACT</p>
+                <p class="popup_contact_name">Srikanth M - 7502258203
+                </p>
+                <a href="https://forms.gle/BDUTTj8AZLTxcu5r6" target="_blank"><button id="register">Register</button></a>
+            </div>
+            <div class="events">
+                <img src="images/CrimeHunt.png" alt="" class="img" onclick="openPopup8()">
+                <p class="event_name" onclick="openPopup8()">CRIME HUNT</p>
+                
+            </div>
+            <div class="popup" id="popup8">
+                <p class="close_icon" onclick="closePopup8()">X</p>
+                <img src="images/CrimeHunt.png" alt="" class="popup_img">
+                <p class="popup_event_name">CRIME HUNT</p>
+                <p class="popup_content">• Team participation of 5 to 6 members. <br>
+                    • The concept of this event is to create an actual crime scenario with people
+                    and materials needed and the participants have to solve the case by
+                    investigating what happened in the crime scene, case details, suspected
+                    peoples statements and other information. <br>
+                    • One team should not be discuss with another team. <br>
+                    • Which team solve the case that team will be declared as winner.
+                    <br> <span class="popup_content_note">NOTE:</span> The decision of Event Coordinators will be final.</p>
+                    <p class="popup_content_title">CONTACT</p>
+                <p class="popup_contact_name">Prasanth K - 8667200357
+                </p>
+                <a href="https://forms.gle/BDUTTj8AZLTxcu5r6" target="_blank"><button id="register">Register</button></a>
+            </div>
+        </div>
+    </div>
+
+    <p id="reg_hr"><hr class="hr"></p>
+
+    <div class="registration">
+        <h1 class="reg_title">Registration Details</h1>
+        <p class="reg_reg_mode">• Online Registration: ₹150 per individual <br>
+           • On - Spot Registration: ₹200 per individual
+        </p>
+        <p class="reg_reg_soon">Register Soon Click the Below Link</p>
+        <a href="https://forms.gle/BDUTTj8AZLTxcu5r6" target="_blank"><button id="register">Register</button></a>
+    </div>
+
+    <p id="cc"><hr class="hr"></p>
+
+    <h1 id="cnt">Contact us</h1>
+    <div id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4025.5569005884327!2d78.1989344035227!3d12.13257369980034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bac1683ebd40403%3A0x3efa8645b703d621!2sGovernment%20College%20Of%20Engineering%2C%20Dharmapuri!5e0!3m2!1sen!2sin!4v1710954711793!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+
+        <div id="stcor">
+           
+            <div class="pos">
+                <p class="pos_title"><b>Secretary:</b></p>
+                <p class="coordinators">Bhuvaneshwaran D T - 9994530135</p>
+            </div>
+            <div class="pos">
+                <p class="pos_title"><b>Student Coordinators:</b></p>
+                <p class="coordinators">
+                Srinivasan S - 8610076995
+                </p>
+                <p class="coordinators">
+                Murali K K - 7736353831
+                </p>
+            </div>
+            
+            
+        </div>
+    </div>
+    <footer>
+        <div class="dd">
+            <p>Designed and Developed by <a href="#">BHARATHIDASAN B</a></p>
+        </div>
+        <div class="cp">
+            <p>Copyright &#169 2024 GCE DPI ECE</p>
+        </div>
+         
+    </footer>
+</body>
+<script>
+    const menu = document.querySelector('#baricon')
+    const home = document.querySelector('#li_home')
+    const about = document.querySelector('#li_about')
+    const events = document.querySelector('#li_events')
+    const registration = document.querySelector('#li_registration')
+    const contact = document.querySelector('#li_contact')
+    const menulist = document.querySelector('header ul')
+    menu.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+    home.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+    about.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+    events.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+    registration.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+    contact.addEventListener('click',()=>{
+        menulist.classList.toggle('showmenu')
+    })
+
+    var countDownDate = new Date("Apr 4, 2024 09:00:00").getTime();
+    var x = setInterval(function(){
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("days").innerHTML = days;
+        document.getElementById("hours").innerHTML = hours;
+        document.getElementById("minutes").innerHTML = minutes;
+        document.getElementById("seconds").innerHTML = seconds;
+
+        if(distance < 0){
+            clearInterval(x);
+            document.getElementById("days").innerHTML = "00";
+            document.getElementById("hours").innerHTML = "00";
+            document.getElementById("minutes").innerHTML = "00";
+            document.getElementById("seconds").innerHTML = "00";
+        }
+
+    },1000);
+
+    let popup = document.getElementById("popup");
+    let popup2 = document.getElementById("popup2");
+    let popup3 = document.getElementById("popup3");
+    let popup4 = document.getElementById("popup4");
+    let popup5 = document.getElementById("popup5");
+    let popup6 = document.getElementById("popup6");
+    let popup7 = document.getElementById("popup7");
+    let popup8 = document.getElementById("popup8");
+    let popup9 = document.getElementById("popup9");    
+
+    function openPopup(){
+        popup.classList.add("open_popup");
+    }
+    function closePopup(){
+        popup.classList.remove("open_popup");
+    }
+
+    function openPopup2(){
+        popup2.classList.add("open_popup");
+    }
+    function closePopup2(){
+        popup2.classList.remove("open_popup");
+    }
+
+    function openPopup3(){
+        popup3.classList.add("open_popup");
+    }
+    function closePopup3(){
+        popup3.classList.remove("open_popup");
+    }
+
+    function openPopup4(){
+        popup4.classList.add("open_popup");
+    }
+    function closePopup4(){
+        popup4.classList.remove("open_popup");
+    }
+
+    function openPopup5(){
+        popup5.classList.add("open_popup");
+    }
+    function closePopup5(){
+        popup5.classList.remove("open_popup");
+    }
+
+    function openPopup6(){
+        popup6.classList.add("open_popup");
+    }
+    function closePopup6(){
+        popup6.classList.remove("open_popup");
+    }
+
+    function openPopup7(){
+        popup7.classList.add("open_popup");
+    }
+    function closePopup7(){
+        popup7.classList.remove("open_popup");
+    }
+
+    function openPopup8(){
+        popup8.classList.add("open_popup");
+    }
+    function closePopup8(){
+        popup8.classList.remove("open_popup");
+    }
+
+    function openPopup9(){
+        popup9.classList.add("open_popup");
+    }
+    function closePopup9(){
+        popup9.classList.remove("open_popup");
+    }
+
+</script>
+</html>
+
